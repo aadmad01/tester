@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- <html lang="en" dir="ltr"> -->
+    <head>
+        <link type="text/css" href="dogstyle.css" rel="stylesheet">
+        <!-- <meta charset="utf-8"> -->
+        <style media="screen">
+            p{
+                margin-left: 10px;
+            }
+            h1{
+                font-size: 50px;
+                font-family: "Montserrat", "Arial";
+                padding-top: 10px;
+            }
+            img{
+                opacity: .8
+                height: 100px !important;
+            }
+            #bot{
+                margin: 20px 20px 40px 20px;
+            }
+            label{
+                font-size: 18px;
+            }
+            
+            /* @media (max-width: 2000px){
+                #small{
+                    display: none;
+                } */
+            }
+            @media screen and (max-width: 980px){
+                h1{
+                    font-size: 35px;
+                    margin-top: 40px;
+                }
+                p{
+                    font-size: 20px;
+                }
+                .box{
+                    width: 100%; max-width: 500px;
+                    position: relative;
+                }
+                .box-bottom-left{
+                    width: 100%; max-width: 500px;
+                    margin-top: 10px;
+                    margin: 10px 0 0 0;
+                    position: relative;
+                }
+                #img{
+                    display: none !important;
+                }
+                /* .checkbox{
+                    height: 20px;
+                    width: 20px;
+                } */
+                /* #c1{
+                    height: 100px;
+                    width: 20px;
+                } */
+                /* #big{
+                    display: none;
+                } */
+                /* #small{
+                    display: block;
+                } */
+
+            }
+        </style>
+        
+        <title>Contact Us</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body style="margin:0;padding:0;"!important>
+    <!-- <body> -->
+    <!-- <div id = "big" class="navbar">
+        <a href= "#contactUs.html" target="_blank">Contact Us!</a>
+        <a href = "Services.html" target="_blank">Services</a>
+        <a href = "#Breeds" target="_blank">Breeds</a>
+        <a href = "#Search" target="_blank">Search</a>
+        <a href = "#Donate" target="_blank">Donate</a>
+        <a href = "#Volunteer" target="_blank">Volunteer</a>
+    </div> -->
+    <div id = "small" class="navbar">
+        <a href= "dogs.html" target="_blank">Home</a>
+        <a href= "contactUs.html" target="_blank">Contact Us!</a>
+        <a href = "Services.html" target="_blank">Services</a>
+    </div>
+        
+        
+            <div class="container" style="margin:10;">
+                <div style="text-align:center">
+                    <h1> Get in Touch! </h1>
+                        <p style="font-size: 20px; font-family: Arial"> Help us find a dog for you </p>
+                </div>
+                <hr style = "width: 80%">
+                <!-- <div class="column"> -->
+                <!-- <div style="float:left; width:40%; margin: 20px; background: #d3d3d3; border-radius: 7px;"> -->
+                <div class="box">
+                    <form style = "padding: 10px;">
+                        <label>Name:</label>
+                        <input type="text" name="name" placeholder="Your Name ..." style ="width: 70%">
+                        <br/>
+                        <br/>
+                        <label>Email:</label>
+                        <input type="text" name="email" placeholder="Your Email ..." style= "width:70%">
+                        <br/>
+                        <br/>
+                        <label>Age:</label>
+                        &nbsp;
+                        &nbsp;
+                        <input type="number" width ="70%">
+                        <br/>
+                        <br/>
+                        <!-- <p style= "padding-left: 40%">Dog Breeds</p>
+                        <input id= "c1" type="checkbox" name="choice1" value="Golden Retriever">
+                        <label for="choice1"> Golden Retriever</label>
+                        <input type="checkbox" name="choice2" value="Siberian Husky">
+                        <label for="choice2"> Siberian Husky</label>
+                        <input type="checkbox" name="choice3" value="Rottweiler">
+                        <label for="choice3"> Rottweiler</label>
+                        <input type="checkbox" name="choice1" value="Golden Retriever">
+                        <label for="choice1"> Golden Retriever</label> -->
+                        <!-- <br/> -->
+                        <br/>
+                        <button type="submit_button" name="submit">Submit</button>
+                        <button type="reset_button" name="button">Reset</button>
+                    </form>
+                </div>
+                <!-- <div class="column"> -->
+                <div id = "img" style='float:right; width:40%; margin-right:20px; height:500px'>
+                <img src="dog3.jpeg">
+                <!-- <img src="dog2.jpg"> -->
+                </div>
+                
+                <!-- <div id = "bot"style="float:left; width:40%;background: #d3d3d3;border-radius: 7px;"> -->
+                <div class="box-bottom-left" id = "bot">
+                    <h2 style="margin: 10px"> Contact Us: </h2>
+                    <p>Phone Number: <a href="tel:+16174992123">+16174992123</a></p>
+                    <p>Email: help@adoptadog.com</p>
+                </div>
+        </div>
+        <div class="footer">
+            <a href= "dogs.html" target="_blank">Home</a>
+            <a href= "Services.html" target="_blank">Services</a>
+            <a href= "contactUs.html" target="_blank">Contact</a>
+            <div class="footer-logo">
+                <a href="https://instagram.com/adoptadog" target="_blank"><img src="ig.png" class="logo"></a>
+                <a href="https://twitter.com/adoptadog" target="_blank"><img src="tw.png" class="logo"></a>
+                <a href="https://facebook.com/adoptadog" target="_blank"><img src="fb.png" class="logo"></a>
+                <div class="logo">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
